@@ -3,6 +3,7 @@ import re
 def find_motul_series(text):
     brand = "Motul"
     series = ""
+
     patterns = [
         r"Motul|Мотуль\s+(\d*\s+\S*)",
         r"Motul|Мотуль\s+(\d*v\s+[leле] [mansманс])",
